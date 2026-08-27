@@ -6,7 +6,7 @@ st.set_page_config(page_title="OOR Report", layout="wide")
 st.title("📦 OOR Pickup - Auto Report Generator")
 st.write("Yaha .xls file upload karo")
 
-file = st.file_uploader("File chuno", type=['xls','xlsx'])
+file = st.file_uploader("File chuno")
 
 if file:
     try:
